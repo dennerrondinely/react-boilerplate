@@ -1,10 +1,13 @@
 module.exports = {
-    roots: ['<rootDir>/src'],
-    collectCoverageFrom: ['<rootDir>/src/**/*.{ts,tsx}', '!**/*.d.ts'],
-    coverageDirectory: 'coverage',
-    testEnvironment: 'jsdom',
-    transform: {
-      '.+\\.(ts|tsx)$': 'ts-jest'
-    },
-    setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts']
-  }
+  testEnvironment: 'jsdom',
+  testPathIgnorePatterns: ['/node_modules/'],
+  collectCoverage: true,
+  modulePaths: ['<rootDir>/src/'],
+  collectCoverageFrom: [
+    '<rootDir>/src/components/**/*.ts(x)',
+    '!**/*.d.ts',
+    '!**/*stories.tsx',
+    '!**/*styles.tsx'
+  ],
+  setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts']
+};
