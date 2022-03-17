@@ -1,10 +1,10 @@
 ## 💻 Projeto
 
-Esse tem como objetivo facilitar a listagem, agendamento e atendimento de consultas.
+Esse tem como objetivo...
 
 ## 🎨 Layout
 
-Você pode utilizar a seguinte URL para visualizar o layout do projeto: [Visualizar](https://www.figma.com/file/eaD2LIOcswFJO2SblVyIeq/Desafio-frontend-Conexa?node-id=1%3A446)
+Você pode utilizar a seguinte URL para visualizar o layout do projeto: [Visualizar](https://www.figma.com/path-here)
 
 ## 🚀 Tecnologias
 
@@ -27,10 +27,10 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ```bash
 # Clone este repositório
-$ git clone git@gitlab.com:denner.rondinely/desafio-tecnico-frontend-conexa.git
+$ git clone git@project-path.git
 
 # Acesse a pasta do projeto no seu terminal/cmd
-$ cd desafio-tecnico-frontend-conexa
+$ cd project-path
 
 # Instale as dependências
 $ yarn
